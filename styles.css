@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  line-height: 1.5;
+  color: #111;
+  font-size: 15px;
+  width: 960px;/*変更箇所*/
+}
+
+.top-main-wrapper {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+/* 
+  ヒント: 
+  middle-section部分の画像も以下と同じように背景に埋め込みましょう 
+*/
+.top-main {
+  height: 550px;
+  background-image: url(./images/yaoqi-lai-19429.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.top-main h2 {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+.top-main h1 {
+  text-align: center;
+  margin: 150px 0 0 0;
+  font-size: 60px;
+  font-weight: 100;
+  border-bottom: 1px solid #ffffff;
+}
+
+.top-main p {
+  text-align: center;
+  margin: 20px 250px 10px 250px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/*
+* footer
+*/
+
+.footer {
+  width: 960px;
+  height: 400px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer h2 {
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.footer h1 {
+  text-align: center;
+  margin: 80px 0 0 0;
+  font-size: 60px;
+  font-weight: 300;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.row {
+  display: flex;
+}
+
+
+.column-4 {
+  width: 320px;
+  padding: 0 10px;
+}
+
+.column-6 {
+  width: 480px;
+  padding: 0 10px;
+}
+
+.column-12 {
+  width: 960px;
+  padding: 0 10px;
+}
+
+.middle-text {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.shoes {
+  background-position: 50%;
+  height: 250px;
+  background-image: url(images/alex-jones-1248.jpg);
+}  
+
+.girl {
+  background-position: 50%;
+  height: 250px;
+  background-image: url(images/jamie-brown-68119.jpg);
+  background-size: cover;
+} 
+
+.sunglass {
+  background-position: 50%;
+  height: 250px;
+  background-image: url(images/andre-hunter-111247.jpg);
+} 
+
+
+.middle-text h1{
+  color: rgb(195, 195, 241);
+  padding: 20px 0;
+  text-transform: uppercase;
+} 
+
+.middle-text h2 {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.middle-text p {
+  color: black;
+}
+
+
+.middle-label-wrapper { 
+  padding: 30px;
+  height: 250px;
+  background-color: rgb(233, 229, 229);
+}
+
+.middle-label-wrapper h1{ 
+  color: rgb(195, 195, 241);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.middle-label-wrapper p{ 
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+/*右側に文字が寄ってしまう*/
+
+/*全体が右にはみ出してしまう*/
+.bottom-section-wrapper {
+  width: 960px;
+  padding: 20px;
+}
+
+.woman {
+  background-position: 30% 30%;
+  height: 250px;
+  background-image: url(images/nick-karvounis-261181.jpg);
+}  
+
+.green-shoes {
+  background-position: 30% 30%;
+  height: 250px;
+  background-image: url(images/kristian-egelund-476932.jpg);
+}  
+
+.bottom-text {
+  padding: 20px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
