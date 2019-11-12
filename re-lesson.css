@@ -179,9 +179,10 @@ body {
 }
 
 .bottom-section-title h1 {
-  font-size: 15px;
+  color: rgb(199, 199, 245);
+  font-size: 25px;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   text-transform: uppercase;
 }
 
@@ -193,6 +194,10 @@ body {
 .bottom-content p {
   font-size: 10px;
   padding: 0 50px 5px 5px;
+}
+
+.margin {
+  margin: 20px 70px;
 }
 
 /* end bottom-section*/
